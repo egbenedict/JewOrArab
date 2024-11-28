@@ -1,3 +1,3 @@
-# MizrahiOrArab
+# JewOrArab
 
-This is an English translation of https://mizrahiolo.github.io/
+This is an English translation of https://mizrahiolo.github.io/ + some extra stuff
