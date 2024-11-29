@@ -1,4 +1,4 @@
-.question-list {
+#question-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -11,6 +11,8 @@ h1 {
 
 img {
     border: 20px solid #afdcde;
+    width: auto;
+    height: 300px;
 }
 
 .question {
