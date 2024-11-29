@@ -228,7 +228,11 @@ document.getElementById("submit-button").addEventListener("click", function () {
         tryAgain.remove();
     });
     // make background color green
-    result.style.backgroundColor = "#75ff93";
+    if (score >= 10) {
+        result.style.backgroundColor = "#75ff93";
+    } else {
+        result.style.backgroundColor = "#ff7575";
+    }
     // remove existing result and button if they exist
     const existingResult = document.getElementById("result");
     if (existingResult) {
